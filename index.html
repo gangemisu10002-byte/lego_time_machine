@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YONSEI BIO TIME MACHINE | 미래에서 왔조</title>
+    <meta name="description" content="2026년의 우리가 2046년의 세상을 바꾸는 방법 - 연세대학교 LEGO Your Career 공모전 출품작">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 로딩 화면 -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="lego-brick"></div>
+            <p>시간 여행을 준비 중입니다...</p>
+        </div>
+    </div>
+
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">🧬</span>
+                <span class="logo-text">YONSEI BIO TIME MACHINE</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#hero">홈</a></li>
+                <li><a href="#scenes">장면 소개</a></li>
+                <li><a href="#tech">기술 스토리</a></li>
+                <li><a href="#team">팀 소개</a></li>
+                <li><a href="#guestbook">방명록</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="floating-brick brick-1"></div>
+            <div class="floating-brick brick-2"></div>
+            <div class="floating-brick brick-3"></div>
+            <div class="floating-brick brick-4"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>🏆 2026-2 LEGO® Your Career 공모전</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">2026년의 우리가</span>
+                <span class="title-line highlight">2046년의 세상을</span>
+                <span class="title-line">바꾸는 방법</span>
+            </h1>
+            <p class="hero-subtitle">
+                시간 여행이라는 소재로 풀어낸 생명공학 연구자의 커리어 여정
+            </p>
+            <div class="hero-team">
+                <span class="team-label">Team</span>
+                <span class="team-name">미래에서 왔조</span>
+                <span class="team-dept">연세대학교 융합과학공학부</span>
+            </div>
+            <div class="hero-cta">
+                <a href="#scenes" class="btn btn-primary">
+                    <span>타임머신 탐험하기</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#guestbook" class="btn btn-secondary">
+                    <span>방명록 남기기</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>스크롤하여 시간 여행 시작</p>
+        </div>
+    </section>
+
+    <!-- 타임라인 섹션 -->
+    <section id="scenes" class="scenes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">⏱️ TIME STAGES</span>
+                <h2>세 개의 시간, 하나의 꿈</h2>
+                <p>현재의 노력이 미래의 전문성으로, 그리고 사회적 가치로 연결되는 여정</p>
+            </div>
+
+            <div class="timeline">
+                <!-- 장면 1: 현재 -->
+                <div class="timeline-item" data-stage="1">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="scene-card scene-present">
+                            <div class="scene-header">
+                                <span class="scene-number">STAGE 01</span>
+                                <span class="scene-year">2026년</span>
+                            </div>
+                            <h3>현재: 캠퍼스에서의 하루</h3>
+                            <p class="scene-description">
+                                연세대학교에서 생명공학을 공부하는 우리들의 모습입니다. 
+                                수업을 듣고, 실험실에서 밤을 새우며, 미래의 연구자가 되기 위한 
+                                기초를 다지고 있습니다. 아직 목표에 도달하지 않았지만, 
+                                배우고 준비하는 이 과정 자체가 커리어의 첫걸음입니다.
+                            </p>
+                            <div class="scene-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📚</span>
+                                    <span>전공 수업 수강</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🔬</span>
+                                    <span>학부 연구생 활동</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🤝</span>
+                                    <span>팀 프로젝트 협업</span>
+                                </div>
+                            </div>
+                            <div class="scene-lego">
+                                <div class="lego-preview">
+                                    <div class="lego-window">
+                                        <div class="minifigure student"></div>
+                                        <div class="desk"></div>
+                                        <div class="books"></div>
+                                    </div>
+                                </div>
+                                <p class="lego-caption">레고로 구현한 캠퍼스 장면</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 장면 2: 미래 -->
+                <div class="timeline-item" data-stage="2">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="scene-card scene-future">
+                            <div class="scene-header">
+                                <span class="scene-number">STAGE 02</span>
+                                <span class="scene-year">2036년</span>
+                            </div>
+                            <h3>미래: 생명공학 연구실</h3>
+                            <p class="scene-description">
+                                10년 후, 우리는 생명공학 연구원으로 성장했습니다. 
+                                암, 유전 질병 등 인류의 오랜 난제를 해결하기 위한 
+                                연구에 매진하고 있습니다. 현재의 학업과 노력이 
+                                미래의 전문성으로 연결되는 모습입니다.
+                            </p>
+                            <div class="scene-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">🧬</span>
+                                    <span>유전자 치료 연구</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🔭</span>
+                                    <span>신약 개발 프로젝트</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">📊</span>
+                                    <span>임상 데이터 분석</span>
+                                </div>
+                            </div>
+                            <div class="scene-lego">
+                                <div class="lego-preview">
+                                    <div class="lego-window">
+                                        <div class="minifigure researcher"></div>
+                                        <div class="microscope"></div>
+                                        <div class="flasks"></div>
+                                    </div>
+                                </div>
+                                <p class="lego-caption">레고로 구현한 연구실 장면</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 장면 3: 적용 -->
+                <div class="timeline-item" data-stage="3">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="scene-card scene-application">
+                            <div class="scene-header">
+                                <span class="scene-number">STAGE 03</span>
+                                <span class="scene-year">2046년</span>
+                            </div>
+                            <h3>적용: 병원에서의 치료</h3>
+                            <p class="scene-description">
+                                연구실에서 개발한 기술이 실제 의료 현장에서 
+                                환자들을 치료하고 있습니다. 우리의 연구가 
+                                단순한 논문으로 끝나는 것이 아니라, 
+                                실제 사람들의 건강한 삶을 만들어가는 모습입니다.
+                            </p>
+                            <div class="scene-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏥</span>
+                                    <span>맞춤형 치료제 투여</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">💊</span>
+                                    <span>유전자 치료 시술</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">❤️</span>
+                                    <span>환자 회복 지원</span>
+                                </div>
+                            </div>
+                            <div class="scene-lego">
+                                <div class="lego-preview">
+                                    <div class="lego-window">
+                                        <div class="minifigure doctor"></div>
+                                        <div class="patient-bed"></div>
+                                        <div class="medical-equipment"></div>
+                                    </div>
+                                </div>
+                                <p class="lego-caption">레고로 구현한 병원 장면</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 기술 스토리 섹션 -->
+    <section id="tech" class="tech">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">⚙️ TECHNOLOGY</span>
+                <h2>타임머신의 비밀</h2>
+                <p>아두이노와 레고의 만남, 기술로 구현한 시간 여행</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🔌</div>
+                    <h3>아두이노 제어 시스템</h3>
+                    <p>버튼 입력을 받아 서보 모터를 제어하고, LED 조명을 장면에 맞게 변환합니다.</p>
+                    <div class="tech-spec">
+                        <span class="spec-item">Arduino Uno</span>
+                        <span class="spec-item">Servo Motor</span>
+                        <span class="spec-item">RGB LED</span>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">🔄</div>
+                    <h3>회전 메커니즘</h3>
+                    <p>48×48 베이스 플레이트 위에 원통형 구조물이 120도씩 회전하며 장면을 전환합니다.</p>
+                    <div class="tech-spec">
+                        <span class="spec-item">3-Stage Rotation</span>
+                        <span class="spec-item">120° Step</span>
+                        <span class="spec-item">Smooth Transition</span>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">💡</div>
+                    <h3>조명 연출 시스템</h3>
+                    <p>각 장면별로 다른 색온도의 LED를 사용하여 시간대와 분위기를 시각적으로 구분합니다.</p>
+                    <div class="tech-spec">
+                        <span class="spec-item">Warm White (현재)</span>
+                        <span class="spec-item">Cool White (미래)</span>
+                        <span class="spec-item">Amber (적용)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-preview">
+                <div class="code-header">
+                    <span class="code-title">📝 아두이노 핵심 코드</span>
+                    <button class="copy-btn" onclick="copyCode()">복사</button>
+                </div>
+                <pre><code id="arduino-code">// 타임머신 장면 전환 코드
+#include &lt;Servo.h&gt;
+
+Servo timeMachine;
+int currentStage = 0;
+const int buttonPin = 2;
+const int ledPins[3] = {9, 10, 11}; // R, G, B
+
+void setup() {
+  timeMachine.attach(3);
+  pinMode(buttonPin, INPUT_PULLUP);
+  for(int i=0; i&lt;3; i++) pinMode(ledPins[i], OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  if(digitalRead(buttonPin) == LOW) {
+    nextStage();
+    delay(300); // 디바운싱
+  }
+}
+
+void nextStage() {
+  currentStage = (currentStage + 1) % 3;
+  
+  // 서보 모터 회전 (0도, 120도, 240도)
+  int angle = currentStage * 120;
+  timeMachine.write(angle);
+  
+  // LED 색상 변경
+  switch(currentStage) {
+    case 0: setLED(255, 200, 100); break; // 따뜻한 백색
+    case 1: setLED(100, 200, 255); break; // 차가운 청백색
+    case 2: setLED(255, 150, 100); break; // 주황색
+  }
+  
+  Serial.print("Stage: ");
+  Serial.println(currentStage + 1);
+}
+
+void setLED(int r, int g, int b) {
+  analogWrite(ledPins[0], r);
+  analogWrite(ledPins[1], g);
+  analogWrite(ledPins[2], b);
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- 팀 소개 섹션 -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">👥 TEAM</span>
+                <h2>미래에서 왔조</h2>
+                <p>2026년의 우리가 2046년의 세상을 꿈꿉니다</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">이</div>
+                    </div>
+                    <h3>이수민</h3>
+                    <p class="member-role">팀장 / 기획 총괄</p>
+                    <p class="member-dept">융합과학공학부 2026199034</p>
+                    <p class="member-house">아펜젤러 하우스</p>
+                    <div class="member-quote">
+                        "생명공학으로 인류의 건강한 미래를 설계하고 싶습니다."
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">박</div>
+                    </div>
+                    <h3>박시현</h3>
+                    <p class="member-role">하드웨어 / 아두이노</p>
+                    <p class="member-dept">융합과학공학부 2026199068</p>
+                    <p class="member-house">알렌 하우스</p>
+                    <div class="member-quote">
+                        "기술과 예술의 경계에서 새로운 가치를 창조합니다."
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">이</div>
+                    </div>
+                    <h3>이수민</h3>
+                    <p class="member-role">디자인 / 스토리텔링</p>
+                    <p class="member-dept">융합과학공학부 2026199001</p>
+                    <p class="member-house">알렌 하우스</p>
+                    <div class="member-quote">
+                        "레고 브릭 하나하나에 우리의 꿈을 담았습니다."
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 방명록 섹션 -->
+    <section id="guestbook" class="guestbook">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📮 GUESTBOOK</span>
+                <h2>심사위원님의 한마디</h2>
+                <p>여러분의 소중한 의견을 남겨주세요</p>
+            </div>
+
+            <div class="guestbook-container">
+                <form id="guestbookForm" class="guestbook-form">
+                    <div class="form-group">
+                        <label for="name">이름 (선택)</label>
+                        <input type="text" id="name" name="name" placeholder="익명으로 남기셔도 됩니다">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">메시지 *</label>
+                        <textarea id="message" name="message" rows="4" placeholder="작품에 대한 감상이나 응원의 메시지를 남겨주세요" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>메시지 남기기</span>
+                        <span class="btn-icon">✉️</span>
+                    </button>
+                </form>
+
+                <div class="guestbook-list" id="guestbookList">
+                    <div class="guestbook-entry sample">
+                        <div class="entry-header">
+                            <span class="entry-name">미래에서 왔조</span>
+                            <span class="entry-date">2026.09.14</span>
+                        </div>
+                        <p class="entry-message">
+                            저희 작품을 찾아주셔서 감사합니다! 
+                            이 웹사이트는 QR코드를 통해 방문하신 심사위원님들을 위해 
+                            특별히 준비한 공간입니다. 여러분의 한마디가 저희에게 큰 힘이 됩니다. 😊
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 이스터에그 섹션 -->
+    <section id="easter-egg" class="easter-egg">
+        <div class="container">
+            <div class="egg-trigger" onclick="toggleSecret()">
+                <div class="egg-icon">🔒</div>
+                <p>이 타임머신에는 아직 공개되지 않은 4번째 장면이 있습니다...</p>
+                <span class="egg-hint">클릭하여 확인하기</span>
+            </div>
+
+            <div id="secret-content" class="secret-content" style="display: none;">
+                <div class="secret-header">
+                    <span class="secret-badge">🎉 SECRET STAGE</span>
+                    <h2>2046년 9월 14일, 가상 뉴스</h2>
+                </div>
+                <div class="news-article">
+                    <div class="news-header">
+                        <span class="news-source">YONSEI DAILY</span>
+                        <span class="news-date">2046년 9월 14일 화요일</span>
+                    </div>
+                    <h3 class="news-title">
+                        "연세대 출신 연구팀, 알츠하이머 완치 치료제 임상 성공"
+                    </h3>
+                    <div class="news-body">
+                        <p>
+                            연세대학교 융합과학공학부 출신의 이수민 박사(38) 연구팀이 
+                            알츠하이머병을 근본적으로 치료할 수 있는 유전자 치료제의 
+                            임상 3상 시험에서 성공했다고 발표했다.
+                        </p>
+                        <p>
+                            이 박사는 인터뷰에서 "2026년 대학 시절, 레고 공모전에서 
+                            타임머신을 만들며 꿈을 처음 구체화했다"며 
+                            "당시 상상했던 미래가 현실이 되어 감격스럽다"고 소감을 밝혔다.
+                        </p>
+                        <p>
+                            해당 치료제는 2027년 상용화를 목표로 하고 있으며, 
+                            전 세계 5,000만 명의 알츠하이머 환자에게 새로운 희망이 될 것으로 기대된다.
+                        </p>
+                    </div>
+                    <div class="news-footer">
+                        <p class="disclaimer">* 이 기사는 미래에서 왔조 팀이 상상한 가상의 뉴스입니다.</p>
+                        <p class="team-message">
+                            이 가상 뉴스가 현실이 되도록, 저희는 오늘도 한 걸음씩 나아가겠습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>YONSEI BIO TIME MACHINE</h4>
+                    <p>2026-2 LEGO® Your Career 공모전 출품작</p>
+                    <p>연세대학교 학부대학 RC교육원</p>
+                </div>
+                <div class="footer-team">
+                    <p><strong>Team 미래에서 왔조</strong></p>
+                    <p>이수민 · 박시현 · 이수민</p>
+                    <p>연세대학교 융합과학공학부</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 미래에서 왔조. All rights reserved.</p>
+                <p>본 웹사이트는 LEGO® Your Career 공모전 출품을 위해 제작되었습니다.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
